@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 3rem;
 }
 
 .App-logo {
@@ -35,4 +36,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form >div {
+  margin-top: 2rem;
+  display: flex;
 }
